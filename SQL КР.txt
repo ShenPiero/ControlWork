@@ -1,0 +1,6 @@
+SELECT AVG(age) AS Age FROM author
+WHERE name OR secondName 'en'
+
+SELECT author.name FROM author 
+INNER JOIN books
+ON author.id=books.authorid
