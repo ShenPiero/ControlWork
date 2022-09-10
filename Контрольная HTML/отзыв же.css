@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    
+}
+a { 
+    color: rgb(25, 61, 129);
+    text-decoration:none
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(17, 3, 92);
+}
+a:visited{
+    color: rgb(114, 0, 0);
+}
+
+.ava {
+width: 300px;
+border-radius: 50px;
+box-shadow: 4px 4px 14px rgb(15, 15, 15);
+position:relative;
+left:220px;
+}
+
+.block_1 { 
+    font-style: italic;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+  
+    position:relative;
+
+}
